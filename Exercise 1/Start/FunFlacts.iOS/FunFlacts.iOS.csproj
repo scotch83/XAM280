@@ -25,7 +25,7 @@
     <WarningLevel>4</WarningLevel>
     <ConsolePause>false</ConsolePause>
     <MtouchArch>i386, x86_64</MtouchArch>
-    <MtouchLink>None</MtouchLink>
+    <MtouchLink>SdkOnly</MtouchLink>
     <MtouchDebug>true</MtouchDebug>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|iPhoneSimulator' ">
@@ -141,7 +141,7 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\FunFlacts\FunFlacts.csproj">
-      <Project>{f3ebf82b-de31-4da3-9e80-9ce94118ce3e}</Project>
+      <Project>{0F942421-F210-4470-8669-7D1961934D04}</Project>
       <Name>FunFlacts</Name>
     </ProjectReference>
   </ItemGroup>
